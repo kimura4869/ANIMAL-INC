@@ -1,0 +1,453 @@
+@charset "UTF-8";
+
+
+html {
+  color: #000;
+  background: #FFF; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, figure, figcaption, time {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  *font-size: 100%; }
+
+legend {
+  color: #000; }
+
+
+html {
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+h1, h2, h3, h4, h5, h6, section, div, p, aside, figure, figcaption, a, article, span, em, blockquote, dl, dt, dd, time {
+  box-sizing: border-box; }
+
+sup {
+  vertical-align: super; }
+
+img {
+  display: block; }
+
+input[type="text"], input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: "メイリオ", Meiryo, 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro', Helvetica, sans-serif;
+  line-height: 66.66667%; }
+
+body {
+  position: relative;
+  width: 100%; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+  a:visited {
+    color: black; }
+  a:hover {
+    color: #f08080; }
+  a.c-blue {
+    color: #f08080; }
+
+sup.blue {
+  color: #f08080; }
+
+img.fit {
+  max-width: 100%;
+  height: auto; }
+
+.blue {
+  color: #f08080; }
+
+.fw-b {
+  font-weight: bold; }
+
+.ta-c {
+  text-align: center; }
+
+.mtt {
+  margin-top: 1em; }
+
+
+ol.ll {
+  padding-left: 1.25em; }
+  ol.ll > li {
+    list-style-type: lower-latin; }
+  ol.ll li + li {
+    margin-top: 0.5em; }
+
+
+.d-ib {
+  display: inline-block; }
+
+.c-red {
+  color: #F00; }
+
+.c-blue {
+  color: #f08080; }
+
+
+dl.cols dt.colon:after {
+  content: '：'; }
+
+
+
+
+a {
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s; }
+
+br.n {
+  display: none; }
+
+.fade {
+  -webkit-transition: opacity 0.15s;
+  transition: opacity 0.15s; }
+  .fade:hover {
+    opacity: 0.7; }
+
+/*-------------------------------
+// HEADER
+-------------------------------*/
+#header-root {
+  position: absolute;
+  width: 20%;
+  z-index: 10;
+  background: url(../images/common/bg_header_02.gif) repeat-y 0 0; }
+  #header-root .hgroup {
+    position: relative;
+    width: 100%;
+    height: 200px; }
+    #header-root .hgroup h1 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 99px;
+      height: 25px;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      background: url(../images/common/ttl_header_01.png) no-repeat 0 0;
+      background-size: contain;
+      height: 0;
+      padding-top: 25px;
+      overflow: hidden;
+      line-height: 3.0rem; }
+    #header-root .hgroup #header-nav {
+      display: none; }
+  #header-root #global-menu {
+    position: relative;
+    z-index: 99; }
+    #header-root #global-menu a.prnt {
+      display: block;
+      width: 100%;
+      height: 60px;
+      padding-top: 14px;
+      text-align: center;
+      -webkit-transition: none;
+      transition: none; }
+      #header-root #global-menu a.prnt span {
+        display: block; }
+      #header-root #global-menu a.prnt .en {
+        display: block;
+        color: #f08080;
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+        text-transform: uppercase; }
+      #header-root #global-menu a.prnt .ja {
+        display: block;
+        margin-top: 8px;
+        color: #777777;
+        font-size: 1rem;
+        line-height: 1rem; }
+      #header-root #global-menu a.prnt:hover {
+        background-color: #edeef2; }
+    #header-root #global-menu a.chld {
+      display: block;
+      height: 40px;
+      padding: 10px 30px 0 30px;
+      color: #333;
+      font-size: 1.2rem;
+      line-height: 2rem; }
+      #header-root #global-menu a.chld:hover {
+        color: #f08080;
+        background-color: white; }
+    #header-root #global-menu ul.prnt {
+      padding: 35px 0;
+      border-top: 1px solid #edeef2;
+      border-bottom: 1px solid #edeef2; }
+      #header-root #global-menu ul.prnt > li {
+        position: relative;
+        padding-left: 10px; }
+        #header-root #global-menu ul.prnt > li:hover ul.chld {
+          display: block; }
+        #header-root #global-menu ul.prnt > li.on {
+          background: url(../images/common/bg_header_01.gif) no-repeat 0 0; }
+    #header-root #global-menu ul.chld {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      width: 300px;
+      padding: 15px 0;
+      white-space: nowrap;
+      background-color: #edeef2; }
+      #header-root #global-menu ul.chld.n2 {
+        top: -65px; }
+      #header-root #global-menu ul.chld.n4 {
+        top: -65px; }
+      #header-root #global-menu ul.chld.n5 {
+        top: -85px; }
+      #header-root #global-menu ul.chld.n6 {
+        top: -125px; }
+      #header-root #global-menu ul.chld.n7 {
+        top: -65px; }
+    #header-root #global-menu p.bnr {
+      margin-top: -40px;
+      margin-bottom: 20px;
+      text-align: center; }
+      #header-root #global-menu p.bnr > * {
+        display: inline-block;
+        border: 1px solid #CCC;
+        -webkit-transition: opacity 0.15s;
+        transition: opacity 0.15s; }
+        #header-root #global-menu p.bnr > *:hover {
+          opacity: 0.7; }
+    #header-root #global-menu p.misc {
+      border-bottom: 1px solid #edeef2;
+      font-size: 0; }
+      #header-root #global-menu p.misc a {
+        position: relative;
+        display: inline-block;
+        width: 50%;
+        height: 100px;
+        padding-top: 32px; }
+        #header-root #global-menu p.misc a span.ico {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          width: 30px;
+          height: 30px;
+          background: url(../images/common/ico_header_01.png) no-repeat 6px 7px #f08080;
+          background-size: 18px 16px; }
+        #header-root #global-menu p.misc a.mypage {
+          width: 100%;
+          border-top: 1px solid #edeef2; }
+          #header-root #global-menu p.misc a.mypage span.ico {
+            background-image: url(../images/common/ico_header_02.png);
+            background-size: 16px 16px; }
+      #header-root #global-menu p.misc a + a:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 1px;
+        height: 100%;
+        background-color: #edeef2; }
+
+        /* 6月13日追記 */
+        #header-root .logoc {
+          width: 100%;
+        }
+
+/*-------------------------------
+// FOOTER
+-------------------------------*/
+#footer-root .bnr {
+  display: none; }
+
+#footer-root.home {
+  position: relative;
+  z-index: 30;
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.1rem; }
+  #footer-root.home ul {
+    position: fixed;
+    left: calc(20% + 30px);
+    bottom: 30px;
+    zoom: 1; }
+    #footer-root.home ul:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    #footer-root.home ul li {
+      float: left; }
+    #footer-root.home ul li + li {
+      margin-left: 15px;
+      padding-left: 16px;
+      border-left: 1px solid white; }
+    #footer-root.home ul a {
+      color: white; }
+  #footer-root.home p.cr {
+    position: fixed;
+    right: 30px;
+    bottom: 30px; }
+
+#footer-root.scnd {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 20%;
+  padding-bottom: 70px;
+  border-top: 1px solid #edeef2;
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  text-align: center; }
+  #footer-root.scnd .ctch {
+    padding-top: 100px; }
+    #footer-root.scnd .ctch img {
+      display: inline; }
+  #footer-root.scnd ul {
+    display: inline-block;
+    margin-top: 70px;
+    zoom: 1; }
+    #footer-root.scnd ul:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    #footer-root.scnd ul li {
+      float: left; }
+    #footer-root.scnd ul li + li {
+      margin-left: 15px;
+      padding-left: 16px;
+      border-left: 1px solid #333; }
+  #footer-root.scnd p.cr {
+    margin-top: 26px; }
+
+
+
+/*-------------------------------
+// MEDIA QUERY
+-------------------------------*/
+/* 高さの制御 */
+@media (min-height: 800px) {
+  #header-root {
+    position: fixed; } }
+
+@media (max-height: 799px) {
+  #header-root {
+    position: absolute; } }
+
+/*-------------------------------
+// MAIN
+-------------------------------*/
+#main header {
+  position: absolute;
+  right: 88px;
+  top: 84px;
+  z-index: 10;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 1.4rem; }
+
+
+  /* 6月13日追加 */
+  #main  {
+    padding-left:20%;
+    overflow: hidden;
+   }
+
+
+/* おりじなる */
+   /* #main img {
+     width: 100%;
+     height: 940px;
+   }
+    */
+   /* #main img {
+     width: 100%;
+     height: auto;
+   } */
+
+
+   /* #main {
+   	background: #f7f7f7 url(../img/big.jpg) center top no-repeat;
+   } */
+   #owl-cont1 {
+     background: url(../img/inu.jpg) center top/cover;
+     background-repeat:no-repeat;
+   	 /* background-position: ; */
+     min-height: 920px;
+     height: 920px;
+    /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
+   }
+
+   #owl-cont2 {
+     background: url(../img/inu.jpg) center top/cover;
+     background-repeat:no-repeat;
+   	 /* background-position: ; */
+     min-height: 920px;
+     height: 920px;
+    /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
+   }
+
+   #owl-cont3 {
+     background: url(../img/inu.jpg) center top/cover;
+     background-repeat:no-repeat;
+   	 /* background-position: ; */
+     min-height: 920px;
+     height: 920px;
+    /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
+   }
+
+   #owl-cont4 {
+     background: url(../img/inu.jpg) center top/cover;
+     background-repeat:no-repeat;
+   	 /* background-position: ; */
+     min-height: 920px;
+     height: 920px;
+    /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
+   }
+
+
+  .owltext {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    z-index: 10;
+    font-size: 36px;
+    color: white;
+  }

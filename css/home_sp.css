@@ -1,0 +1,514 @@
+@charset "UTF-8";
+
+html {
+  color: #000;
+  background: #FFF; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, figure, figcaption, time {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ol, ul {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  *font-size: 100%; }
+
+legend {
+  color: #000; }
+
+
+html {
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+h1, h2, h3, h4, h5, h6, section, div, p, aside, figure, figcaption, a, article, span, em, blockquote, dl, dt, dd, time {
+  box-sizing: border-box; }
+
+sup {
+  vertical-align: super; }
+
+img {
+  display: block; }
+
+input[type="text"], input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: "メイリオ", Meiryo, 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro', Helvetica, sans-serif;
+  line-height: 66.66667%; }
+
+body {
+  position: relative;
+  width: 100%; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+  a:visited {
+    color: black; }
+  a:hover {
+    color: #0e5da2; }
+  a.c-blue {
+    color: #0e5da2; }
+
+sup.blue {
+  color: #0e5da2; }
+
+img.fit {
+  max-width: 100%;
+  height: auto; }
+
+.blue {
+  color: #0e5da2; }
+
+.fw-b {
+  font-weight: bold; }
+
+.ta-c {
+  text-align: center; }
+
+.mtt {
+  margin-top: 1em; }
+
+
+/* 6月15日 */
+.logoc {
+  display: none;
+}
+
+
+ol.ll {
+  padding-left: 1.25em; }
+  ol.ll > li {
+    list-style-type: lower-latin; }
+  ol.ll li + li {
+    margin-top: 0.5em; }
+
+ul.disc {
+  padding-left: 1.5em; }
+  ul.disc.il {
+    display: inline-block; }
+  ul.disc > li {
+    list-style-type: disc; }
+    ul.disc > li > ul > li {
+      list-style-type: circle; }
+  ul.disc li + li {
+    margin-top: 0.5em; }
+
+ul.ann > li {
+  list-style-type: none !important; }
+  ul.ann > li .mark {
+    float: left; }
+  ul.ann > li .colon {
+    float: left; }
+    ul.ann > li .colon:after {
+      content: '：'; }
+  ul.ann > li .txt {
+    display: block;
+    margin-left: 1.5em; }
+
+ul.ann > li + li {
+  margin-top: 0.5em; }
+
+.d-ib {
+  display: inline-block; }
+
+.c-red {
+  color: #F00; }
+
+.c-blue {
+  color: #0e5da2; }
+
+.p-wrap {
+  text-align: left; }
+  .p-wrap > * + * {
+    margin-top: 0.75em; }
+  .p-wrap a {
+    color: #0e5da2;
+    text-decoration: underline; }
+
+dl.cols dt.colon:after {
+  content: '：'; }
+
+
+.nav-anchors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .nav-anchors > .col {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+  .nav-anchors .bar {
+    display: block;
+    padding: 23px 5px;
+    background-color: #295d9d;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center; }
+    .nav-anchors .bar a {
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: underline; }
+      .nav-anchors .bar a:hover {
+        color: white;
+        text-decoration: none; }
+    .nav-anchors .bar span {
+      display: inline-block;
+      padding-left: 20px;
+      background: url(../images/common/ico_arrow_15.png) 0 6px no-repeat;
+      background-size: 13px 10px; }
+  .nav-anchors .body {
+    padding: 25px;
+    font-size: 1.4rem;
+    line-height: 1.71429;
+    text-align: left; }
+    .nav-anchors .body .ttl {
+      margin-bottom: 0.5em;
+      font-weight: bold; }
+  .nav-anchors .col:nth-child(4n+2) .bar, .nav-anchors .col:nth-child(4n+3) .bar {
+    background-color: #3c78c3; }
+  .nav-anchors .col:nth-child(4n+1), .nav-anchors .col:nth-child(4n+4) {
+    background-color: #f5f7fa; }
+
+
+
+br.w {
+  display: none; }
+
+/*-------------------------------
+// HEADER
+-------------------------------*/
+#header-root {
+  position: relative;
+  width: 100%;
+  z-index: 99; }
+  #header-root .hgroup {
+    position: absolute;
+    width: 100%;
+    zoom: 1;
+    background-color: white;
+    z-index: 10; }
+    #header-root .hgroup:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    #header-root .hgroup h1 {
+      width: 68px;
+      margin: 16px 0 0 5%;
+      background: url(../images/common/ttl_header_01.png) no-repeat 0 0;
+      background-size: contain;
+      float: left;
+      height: 0;
+      padding-top: 17px;
+      overflow: hidden;
+      line-height: 3.0rem; }
+    #header-root .hgroup #header-nav {
+      float: right;
+      zoom: 1; }
+      #header-root .hgroup #header-nav:after {
+        display: block;
+        clear: both;
+        content: ""; }
+      #header-root .hgroup #header-nav a {
+        position: relative;
+        display: block;
+        width: 50px;
+        height: 50px;
+        float: left;
+        cursor: pointer;
+        background: url(../images/common/txt_header_01_01.png) no-repeat 50% 37px;
+        background-size: 35px 5px; }
+        #header-root .hgroup #header-nav a#btn-entry, #header-root .hgroup #header-nav a#btn-mypage {
+          background-color: #0e5da2; }
+          #header-root .hgroup #header-nav a#btn-entry span, #header-root .hgroup #header-nav a#btn-mypage span {
+            position: absolute;
+            left: 0;
+            top: 15px;
+            width: 100%;
+            background: url(../images/common/ico_header_01.png) no-repeat 50% 0;
+            background-size: 18px 16px;
+            height: 0;
+            padding-top: 16px;
+            overflow: hidden;
+            line-height: 3.0rem; }
+        #header-root .hgroup #header-nav a#btn-entry {
+          background-color: #3c78c3;
+          background-size: 42px 7px; }
+          #header-root .hgroup #header-nav a#btn-entry.y19 {
+            background-color: #548cd1; }
+          #header-root .hgroup #header-nav a#btn-entry.y20 {
+            background-image: url(../images/common/txt_header_01_02.png); }
+          #header-root .hgroup #header-nav a#btn-entry.y21 {
+            background-image: url(../images/common/txt_header_01_03.png);
+            background-size: 49px 7px; }
+        #header-root .hgroup #header-nav a#btn-mypage {
+          background-image: url(../images/common/txt_header_04.png);
+          background-size: 29px 7px; }
+          #header-root .hgroup #header-nav a#btn-mypage span {
+            background-image: url(../images/common/ico_header_02.png);
+            background-size: 16px 16px; }
+        #header-root .hgroup #header-nav a#btn-toggle {
+          background-image: url(../images/common/txt_header_03.png);
+          background-size: 20px 6px;
+          background-color: white; }
+          #header-root .hgroup #header-nav a#btn-toggle div {
+            position: absolute;
+            top: 15px;
+            left: 16px;
+            width: 18px;
+            height: 3px;
+            -webkit-transition: background-color .3s linear, -webkit-transform .4s ease-in-out;
+            transition: background-color .3s linear, -webkit-transform .4s ease-in-out;
+            transition: transform .4s ease-in-out, background-color .3s linear;
+            transition: transform .4s ease-in-out, background-color .3s linear, -webkit-transform .4s ease-in-out;
+            background-color: #0e5da2; }
+          #header-root .hgroup #header-nav a#btn-toggle .mid-bar {
+            top: 21px; }
+          #header-root .hgroup #header-nav a#btn-toggle .bot-bar {
+            top: 27px; }
+          #header-root .hgroup #header-nav a#btn-toggle.on {
+            background-image: url(../images/common/txt_header_02.png);
+            background-size: 19px 5px; }
+            #header-root .hgroup #header-nav a#btn-toggle.on .top-bar {
+              -webkit-transform: translate(0, 6px) rotate(225deg) scale(1.15, 1);
+                      transform: translate(0, 6px) rotate(225deg) scale(1.15, 1); }
+            #header-root .hgroup #header-nav a#btn-toggle.on .mid-bar {
+              -webkit-transform: scale(0, 1);
+                      transform: scale(0, 1); }
+            #header-root .hgroup #header-nav a#btn-toggle.on .bot-bar {
+              -webkit-transform: translate(0, -6px) rotate(-225deg) scale(1.15, 1);
+                      transform: translate(0, -6px) rotate(-225deg) scale(1.15, 1); }
+          #header-root .hgroup #header-nav a#btn-toggle:hover {
+            opacity: 0.6; }
+
+#global-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  opacity: 0.0;
+  z-index: 0;
+  border-bottom: 1px solid #edeef2; }
+  #global-menu a.prnt {
+    display: block;
+    padding: 12px 0;
+    background-color: #0e5da2;
+    color: white;
+    text-align: center;
+    text-transform: uppercase; }
+    #global-menu a.prnt span {
+      display: block; }
+    #global-menu a.prnt span.en {
+      font-size: 1.2rem;
+      line-height: 1.2rem; }
+    #global-menu a.prnt span.ja {
+      margin-top: 8px;
+      font-size: 0.8rem;
+      line-height: 0.8rem; }
+    #global-menu a.prnt.n1 {
+      display: none; }
+  #global-menu a.chld {
+    display: block;
+    padding: 12px 0 12px 5%;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    background: url(../images/common/ico_arrow_01.png) no-repeat 97.5% 50%;
+    background-size: 5px 8px;
+    background-color: white; }
+  #global-menu ul.chld li:nth-child(2n) a.chld {
+    background-color: #f1f1f1; }
+  #global-menu p.misc, #global-menu .bnr {
+    display: none; }
+
+/*-------------------------------
+// FOOTER
+-------------------------------*/
+#footer-root {
+  margin-top: 15px;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center; }
+  #footer-root .bnr {
+    text-align: center; }
+    #footer-root .bnr > * {
+      display: inline-block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      border: 1px solid #CCC; }
+  #footer-root.scnd {
+    padding-top: 50px; }
+  #footer-root .ctch {
+    display: none; }
+  #footer-root ul {
+    padding: 14px 0;
+    background-color: #f1f1f1; }
+    #footer-root ul li {
+      display: inline-block;
+      margin: 2px 0;
+      padding: 2px 0; }
+    #footer-root ul li + li {
+      margin-left: 6px;
+      padding-left: 7px;
+      border-left: 1px solid black; }
+  #footer-root p.cr {
+    text-align: center;
+    padding: 15px 0 20px 0; }
+
+/*-------------------------------
+// SITEMAP
+-------------------------------*/
+#sitemap {
+  display: none; }
+
+/*-------------------------------
+// MAIN
+-------------------------------*/
+#main {
+  position: relative;
+  padding-top: 50px;
+  width: 100%;
+  z-index: 1;
+  color: #333; }
+  #main header.scnd {
+    width: 100%;
+    padding: 30px 0 25px 0;
+    text-align: center; }
+    #main header.scnd strong, #main header.scnd span {
+      display: block; }
+    #main header.scnd strong {
+      color: #0e5da2;
+      font-weight: bold;
+      font-size: 1.4rem;
+      line-height: 1.4rem; }
+    #main header.scnd span {
+      margin-top: 8px;
+      color: #333;
+      font-size: 1.1rem;
+      line-height: 1.1rem; }
+
+.rbbn img {
+  width: 75%;
+  height: auto; }
+
+
+
+
+
+
+a.btn {
+  width: 90%;
+  color: white;
+  padding: 17px 100px 14px 100px;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-family: Helvetica, "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background: url(../images/common/ico_arrow_08.png) no-repeat 96% 50%;
+  background-color: #0e5da2; }
+
+.p-wrap {
+  width: 100%;
+  margin-top: 15%;
+  padding: 0 5%;
+  font-size: 1.2rem;
+  line-height: 2rem; }
+  .p-wrap.mt {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+
+
+.nav-anchors > .col {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%; }
+
+.nav-anchors .bar {
+  padding: 10px 5px;
+  font-size: 1.4rem; }
+
+.nav-anchors .body {
+  padding: 15px 3.5%;
+  font-size: 1.3rem; }
+
+/*-------------------------------
+// MAIN
+-------------------------------*/
+#main header {
+  display: none;
+ }
+
+ #owl-cont1 {
+   background: url(../img/inu.jpg) center top/cover;
+   background-repeat:no-repeat;
+   /* background-position: ; */
+   min-height: 920px;
+   height: 920px;
+  /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
+ }
+
+ #owl-cont2 {
+   background: url(../img/inu.jpg) center top/cover;
+   background-repeat:no-repeat;
+   /* background-position: ; */
+   min-height: 920px;
+   height: 920px;
+  /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
+ }
+
+ #owl-cont3 {
+   background: url(../img/inu.jpg) center top/cover;
+   background-repeat:no-repeat;
+   /* background-position: ; */
+   min-height: 920px;
+   height: 920px;
+  /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
+ }
+
+ #owl-cont4 {
+   background: url(../img/inu.jpg) center top/cover;
+   background-repeat:no-repeat;
+   /* background-position: ; */
+   min-height: 920px;
+   height: 920px;
+  /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
+ }

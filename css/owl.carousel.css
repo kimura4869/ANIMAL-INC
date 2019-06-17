@@ -1,0 +1,78 @@
+
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 800ms ease-in-out;
+	-moz-transition: height 800ms ease-in-out;
+	-ms-transition: height 800ms ease-in-out;
+	-o-transition: height 800ms ease-in-out;
+	transition: height 800ms ease-in-out;
+}
+
+/* 縦列を横一列に */
+.owl-carousel .owl-item{
+	float: left;
+}
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+/* 画像を指定した場合、マウスのクリックに反応する画像上の位置を、
+半角スペースで区切って2つの値で指定します。1つ目は水平方向、
+2つ目は垂直方向の位置を指定します。１つだけ指定した場合は、水平・垂直方向に同じ値が適用されます。 */
+
+/* ポインターとして使用したい画像 */
+/* コンマは使えないときの代替で、movwは十字のようなアイコン */
+.grabbing {
+    cursor:url(/img/grabbing.png) 4 4, move;
+}
+
+
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
