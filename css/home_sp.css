@@ -482,8 +482,8 @@ a.btn {
    background: url(../img/inu.jpg) center top/cover;
    background-repeat:no-repeat;
    /* background-position: ; */
-   min-height: 920px;
-   height: 920px;
+   min-height: 460px;
+   height: 460px;
   /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
  }
 
@@ -491,8 +491,8 @@ a.btn {
    background: url(../img/higuma.jpg) center top/cover;
    background-repeat:no-repeat;
    /* background-position: ; */
-   min-height: 920px;
-   height: 920px;
+   min-height: 460px;
+   height: 460px;
   /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
  }
 
@@ -500,8 +500,8 @@ a.btn {
    background: url(../img/koinu.jpg) center top/cover;
    background-repeat:no-repeat;
    /* background-position: ; */
-   min-height: 920px;
-   height: 920px;
+   min-height: 460px;
+   height: 460px;
   /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
  }
 
@@ -509,7 +509,7 @@ a.btn {
    background: url(../img/neko.jpg) center top/cover;
    background-repeat:no-repeat;
    /* background-position: ; */
-   min-height: 920px;
-   height: 920px;
+   min-height: 460px;
+   height: 460px;
   /* background: #f7f7f7 url(../img/big.jpg) center top no-repeat; */
  }
