@@ -85,8 +85,12 @@
 
 .owl-controls {
 	position: absolute;
-	bottom: 10%;
-	left: 45%;
+	/* bottom: 10%; */
+	left: 40%;
+
 }
+
+
+
 
 /* 以上 */
