@@ -86,19 +86,19 @@ a {
   a:visited {
     color: black; }
   a:hover {
-    color: #0e5da2; }
+    color: #f08080; }
   a.c-blue {
-    color: #0e5da2; }
+    color: #f08080; }
 
 sup.blue {
-  color: #0e5da2; }
+  color: #f08080; }
 
 img.fit {
   max-width: 100%;
   height: auto; }
 
 .blue {
-  color: #0e5da2; }
+  color: #f08080; }
 
 .fw-b {
   font-weight: bold; }
@@ -156,14 +156,14 @@ ul.ann > li + li {
   color: #F00; }
 
 .c-blue {
-  color: #0e5da2; }
+  color: #f08080; }
 
 .p-wrap {
   text-align: left; }
   .p-wrap > * + * {
     margin-top: 0.75em; }
   .p-wrap a {
-    color: #0e5da2;
+    color: #f08080;
     text-decoration: underline; }
 
 dl.cols dt.colon:after {
@@ -208,7 +208,7 @@ dl.cols dt.colon:after {
       margin-bottom: 0.5em;
       font-weight: bold; }
   .nav-anchors .col:nth-child(4n+2) .bar, .nav-anchors .col:nth-child(4n+3) .bar {
-    background-color: #3c78c3; }
+    background-color: #ffb6c1; }
   .nav-anchors .col:nth-child(4n+1), .nav-anchors .col:nth-child(4n+4) {
     background-color: #f5f7fa; }
 
@@ -261,7 +261,7 @@ br.w {
         background: url(../images/common/txt_header_01_01.png) no-repeat 50% 37px;
         background-size: 35px 5px; }
         #header-root .hgroup #header-nav a#btn-entry, #header-root .hgroup #header-nav a#btn-mypage {
-          background-color: #0e5da2; }
+          background-color: #f08080; }
           #header-root .hgroup #header-nav a#btn-entry span, #header-root .hgroup #header-nav a#btn-mypage span {
             position: absolute;
             left: 0;
@@ -274,7 +274,7 @@ br.w {
             overflow: hidden;
             line-height: 3.0rem; }
         #header-root .hgroup #header-nav a#btn-entry {
-          background-color: #3c78c3;
+          background-color: #ffb6c1;
           background-size: 42px 7px; }
           #header-root .hgroup #header-nav a#btn-entry.y19 {
             background-color: #548cd1; }
@@ -303,7 +303,7 @@ br.w {
             transition: background-color .3s linear, -webkit-transform .4s ease-in-out;
             transition: transform .4s ease-in-out, background-color .3s linear;
             transition: transform .4s ease-in-out, background-color .3s linear, -webkit-transform .4s ease-in-out;
-            background-color: #0e5da2; }
+            background-color: #f08080; }
           #header-root .hgroup #header-nav a#btn-toggle .mid-bar {
             top: 21px; }
           #header-root .hgroup #header-nav a#btn-toggle .bot-bar {
@@ -334,7 +334,7 @@ br.w {
   #global-menu a.prnt {
     display: block;
     padding: 12px 0;
-    background-color: #0e5da2;
+    background-color: #f08080;
     color: white;
     text-align: center;
     text-transform: uppercase; }
@@ -418,7 +418,7 @@ br.w {
     #main header.scnd strong, #main header.scnd span {
       display: block; }
     #main header.scnd strong {
-      color: #0e5da2;
+      color: #f08080;
       font-weight: bold;
       font-size: 1.4rem;
       line-height: 1.4rem; }
@@ -445,7 +445,7 @@ a.btn {
   line-height: 1.6rem;
   font-family: Helvetica, "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   background: url(../images/common/ico_arrow_08.png) no-repeat 96% 50%;
-  background-color: #0e5da2; }
+  background-color: #f08080; }
 
 .p-wrap {
   width: 100%;
@@ -477,6 +477,7 @@ a.btn {
   display: none;
  }
 
+
  #owl-cont1 {
    background: url(../img/inu.jpg) center top/cover;
    background-repeat:no-repeat;
@@ -487,7 +488,7 @@ a.btn {
  }
 
  #owl-cont2 {
-   background: url(../img/inu.jpg) center top/cover;
+   background: url(../img/higuma.jpg) center top/cover;
    background-repeat:no-repeat;
    /* background-position: ; */
    min-height: 920px;
@@ -496,7 +497,7 @@ a.btn {
  }
 
  #owl-cont3 {
-   background: url(../img/inu.jpg) center top/cover;
+   background: url(../img/koinu.jpg) center top/cover;
    background-repeat:no-repeat;
    /* background-position: ; */
    min-height: 920px;
@@ -505,7 +506,7 @@ a.btn {
  }
 
  #owl-cont4 {
-   background: url(../img/inu.jpg) center top/cover;
+   background: url(../img/neko.jpg) center top/cover;
    background-repeat:no-repeat;
    /* background-position: ; */
    min-height: 920px;
